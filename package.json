@@ -1,0 +1,30 @@
+{
+  "name": "Team-RizkyMaxz",
+  "version": "4.0.0",
+  "description": "🔍 Bot Telegram untuk cek bio & status WhatsApp secara otomatis menggunakan Baileys API",
+  "author": "RizkyMaxz Dev Team",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp-bio",
+    "telegram-bot",
+    "baileys",
+    "bot-whatsapp",
+    "checker",
+    "automation"
+  ],
+  "dependencies": {
+    "@whiskeysockets/baileys": "github:seiren-primrose/PL-Baileys",
+    "axios": "^1.12.2",
+    "jimp": "^0.16.13",
+    "pino": "^8.15.1",
+    "telegraf": "^4.15.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
